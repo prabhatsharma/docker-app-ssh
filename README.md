@@ -5,6 +5,8 @@ This is an example of a container that has a nodejs app running inside it along 
 
 You can run following to get started
 
+> npm install
+
 > docker build . -t docker-app-ssh
 
 > docker run -p 8022:22 -p 8080:8080 docker-app-ssh 
